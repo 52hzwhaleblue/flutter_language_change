@@ -61,8 +61,8 @@ class _MyHomePageState extends State<MyHomePage> {
           bool isVi = SettingData.lang == Lang.vi;
           SimpleSetting.changeLanguage(context, isVi ? Lang.en : Lang.vi);
         },
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
+        tooltip: 'Change Language',
+        child: const Icon(Icons.change_circle_rounded),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
